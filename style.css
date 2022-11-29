@@ -6,12 +6,14 @@ html {
 }
 
 body {
-  display: grid;
+  display: flex;
   justify-content: center;
+  margin-right: 10vw;
 }
 
-button {
-  margin: 20px auto;
+div {
+  display: grid;
+  justify-content: center;
 }
 
 .container {
@@ -23,5 +25,13 @@ button {
 }
 
 .color-change {
-  background-color: black;
+  background: black;
+}
+
+.top-button {
+  margin: 20px auto;
+}
+
+.multicolor-set-button {
+  margin: auto 20px;
 }
