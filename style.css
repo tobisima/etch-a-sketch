@@ -25,13 +25,19 @@ div {
 }
 
 .color-change {
-  background: black;
+  background:black;
 }
+
 
 .top-button {
   margin: 20px auto;
 }
 
-.multicolor-set-button {
+.multicolor-button, .shade-to-black-button {
   margin: auto 20px;
+}
+
+.left-panel{
+  align-content: center;
+  gap: 20px;
 }
